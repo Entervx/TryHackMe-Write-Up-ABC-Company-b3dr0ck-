@@ -1,7 +1,9 @@
 # TryHackMe — ABC Company (b3dr0ck) Write‑Up
 
 Difficulty: Medium
+
 Category: CTF / Linux / TLS / Privilege Escalation
+
 Skills Used: Scanning, TLS connections, certificate abuse, decoding, hash cracking
 
 Scenario Overview
@@ -9,9 +11,13 @@ Scenario Overview
 Barney is setting up a web server for Abbadabba Broadcasting Company (ABC) and tries to secure services using TLS certificates. Unfortunately, the setup is badly configured, exposing sensitive services.
 
 We must:
+
 Gain initial access
+
 Move from Barney ➜ Fred
+
 Escalate privileges
+
 Capture all flags
 
 This challenge shows how misconfigured security tools can be more dangerous than no security at all.
